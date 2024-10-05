@@ -27,9 +27,8 @@ def download_video(url):
         print(f"Видео '{video_title}' успешно скачано!")
 
         # Команда для передачи видео по SSH
-#        ssh_command = f"scp '{video_title}' lorefour@81.200.27.62:/home/lorefour/"
-#        os.system(ssh_command)
-
+        ssh_command = f"scp '{video_title}' username@your_ip:/your/directory/"
+        os.system(ssh_command)
         print(f"Видео передано по SSH на удаленный компьютер.")
     
     except Exception as e:
