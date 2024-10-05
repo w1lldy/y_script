@@ -26,10 +26,10 @@ Fetch and embed English subtitles into the video file.
 Save the video as an .mp4 file.
 Note: The script currently only works through a console interface.
 
-###SSH Transfer
+### SSH Transfer
 The feature to transfer the downloaded video to a remote machine via SSH is included but commented out. You can enable it by uncommenting the relevant lines in the script.
 
-###Future Development Plans
+### Future Development Plans
 In future releases, the script will include:
 
 A graphical interface to enhance user experience.
@@ -37,6 +37,6 @@ An option to select the video quality before downloading.
 More customization options, such as selecting different subtitle languages and output formats.
 Stay tuned for updates!
 
-###License
+### License
 This project is open-source under the MIT License. (PS. I don't know what the license is, but everyone uses it :))
 Let me know if you need any changes!
